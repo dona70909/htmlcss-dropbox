@@ -141,15 +141,12 @@ main > section{
 /* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
 .small-clm{
-    width: calc((100% / 3) - 40px);
-    /*    height: 300px; */
-    margin:0 10px 20px 10px;
+    width: calc((100% / 3) - 30px);
+    margin:0 10px 20px 0px;
     /* background-color: darkslategray; */
     margin-bottom: 20px;
     border: 1px solid black;
 }
-
-
 
 .row-small{
     width: 100%;
