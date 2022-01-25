@@ -130,9 +130,10 @@ main > section{
 /* ! FIRST section  3 column + 1 row  */
 .small-clm{
     width: calc((100% / 3));
-    height: 300px;
+ /*    height: 300px; */
     background-color: darkslategray;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .middle{
@@ -153,6 +154,10 @@ main > section{
 }
 .radio-container{
     margin-bottom: 20px;
+}
+.container-list > ul > li {
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* secction 2 COLUMN ONLY FOR THE SECOND SECTION 50% 50% */
