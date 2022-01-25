@@ -78,8 +78,6 @@ h3 , h4{
 .container{
     width: 85%;
     margin: 0 auto;
-    /*   text-align: center; */
-    /*  padding-top: 30px; */
     background-color: deeppink;
 }
 .text-align-left{
@@ -141,11 +139,16 @@ main > section{
 /* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
 .small-clm{
-    width: calc((100% / 3) - 30px);
-    margin:0 10px 20px 0px;
+    width: calc(100% / 3);
     /* background-color: darkslategray; */
     margin-bottom: 20px;
     border: 1px solid black;
+}
+
+/* ?used also inside the third section */
+.middle{
+    width: calc((100% / 3) - 20px);
+    margin:0 10px; 
 }
 
 .row-small{
@@ -214,12 +217,6 @@ main > section{
 .clm-text-middle{
     /* ??padding */
     padding: 10px 10px 20px 10px;
-}
-
-/* used inside the third section */
-.middle{
-    width: calc((100% / 3) - 40px);
-    margin:0 10px 20px 10px; 
 }
 
 /* !FIFTH SECTION */
