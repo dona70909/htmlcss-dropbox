@@ -81,7 +81,7 @@ header > section{
 
 /* secction 1 */
 main{
-    height:2500px;
+    height:2000px;
     background-color: goldenrod;
 }
 
@@ -134,6 +134,38 @@ main > section{
 .clm-text-middle{
     /* ??padding */
     padding: 10px 10px 20px 10px;
+}
+
+/* fifth section */
+.clm-left-title{
+    width: 50%;
+    height:150px;
+    background-color: indianred;
+}
+.clm-right-bottom{
+    width: 50%;
+    height:150px;
+    background-color: rgb(117, 92, 205);
+}
+
+/* ***************faq ****** */
+.faq-container{
+    height: 230px;
+    background-color: indigo;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    height: 300px;
+    padding-top: 40px ;
+}
+.column-footer{
+    width: calc(20% - 10px);
+    margin-right:10px ;
+    height: 150px;
+    background-color: rgb(73, 128, 87);
+    padding-right: 10px;
 }
 
 /* id  */
