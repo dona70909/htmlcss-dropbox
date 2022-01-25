@@ -25,3 +25,8 @@ header{
     height: 80px;
     background-color: blue;
 }
+
+#jumbotron{
+    background-color: brown;
+    height: 500px;
+}
