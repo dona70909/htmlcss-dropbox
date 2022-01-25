@@ -10,3 +10,11 @@
     display: table;
     clear: both;
 }
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
