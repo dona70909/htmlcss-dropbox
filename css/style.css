@@ -50,17 +50,22 @@ header > section{
 .container-large{
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
     padding-top: 30px;
 }
 
 .container{
     width: 85%;
     margin: 0 auto;
-    text-align: center;
+  /*   text-align: center; */
     padding-top: 30px;
     background-color: deeppink;
-
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
 }
 .small-clm{
     width: 30%;
@@ -118,6 +123,8 @@ main > section{
     width: calc(100% / 3);
     background-color: rgb(34, 173, 178);
 }
+
+
 
 /* id  */
 #jumbotron{
