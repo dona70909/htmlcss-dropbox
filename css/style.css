@@ -54,6 +54,14 @@ a{
     color: black;
 }
 
+i{
+    margin-right: 5px;
+}
+
+h3 , h4{
+    margin-bottom:8px ;
+}
+
 .small-clm-jumbo > .fa-arrow-down{
     font-size: 40px;
 }
@@ -80,6 +88,11 @@ a{
 .text-align-right{
     text-align: right;
 }
+
+.container-list > p {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}  
 
 /* !jumbotron's columns */
 .small-clm-jumbo{
@@ -129,16 +142,17 @@ main > section{
 /* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
 .small-clm{
-    width: calc((100% / 3));
- /*    height: 300px; */
+    width: calc((100% / 3) - 40px);
+    /*    height: 300px; */
+    margin:0 10px 20px 10px;
     background-color: darkslategray;
     margin-bottom: 20px;
-    padding-left: 20px;
+    border: 1px solid black;
 }
 
 .middle{
-   width: calc((100% / 3) - 20px);
-   margin:0 10px 20px 10px;
+   /* width: calc((100% / 3) - 40px);
+   margin:0 10px 20px 10px; */
 }
 
 .row-small{
@@ -158,6 +172,7 @@ main > section{
 
 .container-list{
     padding-top: 15px;
+    padding-left: 20px;
 }
 
 .container-list > ul > li {
@@ -165,6 +180,22 @@ main > section{
     margin-bottom: 10px;
 }
 
+.small-clm h5{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.icon-white{
+    color: white;
+   
+}
+
+.icon-blue{
+    color: #0061ff;
+}
+.hr-short{
+    width: 15%;
+}
 /* secction 2 COLUMN ONLY FOR THE SECOND SECTION 50% 50% */
 /* ! SECOND section  2 column  */
 .column{
@@ -238,5 +269,7 @@ footer{
     padding-right: 30px;
     vertical-align: middle;
 }
+
+
 
 
