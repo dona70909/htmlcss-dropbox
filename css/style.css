@@ -88,7 +88,7 @@ a{
 
 .big-clm-jumbo{
     width: 70%;
-    background-color: rgb(220, 20, 220);
+  /*   background-color: rgb(220, 20, 220); */
 }
 
 .btn-blue{
@@ -110,7 +110,7 @@ button a {
 
 .big-clm-jumbo > img{
     width: 100%;
-    height: 250px;
+    
 }
 /* main */
 
@@ -221,7 +221,7 @@ footer{
 /* ? id  */
 #jumbotron{
     background-color: #b4d0e7;
-    height: 500px; 
+    height: 620px; 
 }
 
 #logo{
