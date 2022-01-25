@@ -131,6 +131,11 @@ main > section{
     background-color: greenyellow;
 }
 
+.clm-text-middle{
+    /* ??padding */
+    padding: 10px 10px 20px 10px;
+}
+
 /* id  */
 #jumbotron{
     background-color: brown;
