@@ -58,7 +58,7 @@ header > section{
     width: 85%;
     margin: 0 auto;
   /*   text-align: center; */
-    padding-top: 30px;
+   /*  padding-top: 30px; */
     background-color: deeppink;
 }
 .text-align-left{
@@ -81,7 +81,7 @@ header > section{
 
 /* secction 1 */
 main{
-    height:1500px;
+    height:2500px;
     background-color: goldenrod;
 }
 
@@ -124,7 +124,12 @@ main > section{
     background-color: rgb(34, 173, 178);
 }
 
-
+/* section four with 3 columns : 2 with images and the middle one with text */
+.column-image{
+    width:calc(100% / 3);
+    height: 200px;
+    background-color: greenyellow;
+}
 
 /* id  */
 #jumbotron{
