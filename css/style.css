@@ -28,9 +28,9 @@ header{
     padding: 0px 10px 0px 10px;
 }
 
-h1{
-    text-align: center;
-    padding-top: 30px;
+section#jumbotron .container-large > h1{
+    font-size: 75px;
+    padding: 50px 0 20px 0;
 }
 
 header > section{
@@ -58,9 +58,10 @@ a{
 .container-large{
     width: 90%;
     margin: 0 auto;
+ /*    background-color: blueviolet; */
     /* text-align: center; */
-    padding-top: 30px;
-}
+   /*  padding-top: 30px;*/
+} 
 
 .container{
     width: 85%;
@@ -76,16 +77,24 @@ a{
     text-align: right;
 }
 
-/* jumbotron's columns */
+/* !jumbotron's columns */
 .small-clm-jumbo{
     width: 30%;
     background-color: chartreuse;
+    
 }
 
 .big-clm-jumbo{
     width: 70%;
     background-color: rgb(220, 20, 220);
 }
+
+.btn-blue{
+    background-color: #0061ff;
+    padding: 5px 10px 5px 10px;
+    border: none;
+}
+
 
 /* main */
 
@@ -186,8 +195,8 @@ footer{
 
 /* ? id  */
 #jumbotron{
-    background-color: brown;
-    height: 500px;
+    background-color: #b4d0e7;
+   /*  height: 500px; */
 }
 
 #logo{
