@@ -26,6 +26,29 @@ header{
     background-color: blue;
 }
 
+h1{
+    text-align: center;
+}
+
+.container-large{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+}
+.small-clm{
+    width: 30%;
+    background-color: chartreuse;
+}
+
+.big-clm{
+    width: 70%;
+    background-color: rgb(220, 20, 220);
+}
+
 #jumbotron{
     background-color: brown;
     height: 500px;
