@@ -80,7 +80,7 @@ h3 , h4{
     margin: 0 auto;
   /*   text-align: center; */
    /*  padding-top: 30px; */
-    background-color: deeppink;
+    /* background-color: deeppink; */
 }
 .text-align-left{
     text-align: left;
@@ -130,11 +130,11 @@ button a {
 /* secction 1 */
 main{
     height:2000px;
-    background-color: goldenrod;
+   /*  background-color: goldenrod; */
 }
 
 main > section{
-    background-color: darkred;
+   /*  background-color: darkred; */
     /* da eliminare il margin, mi serve per separare le section */
     margin-bottom: 10px;
 }
@@ -145,15 +145,15 @@ main > section{
     width: calc((100% / 3) - 40px);
     /*    height: 300px; */
     margin:0 10px 20px 10px;
-    background-color: darkslategray;
+    /* background-color: darkslategray; */
     margin-bottom: 20px;
     border: 1px solid black;
 }
 
-.middle{
-   /* width: calc((100% / 3) - 40px);
-   margin:0 10px 20px 10px; */
-}
+ /*.middle{
+   width: calc((100% / 3) - 40px);
+   margin:0 10px 20px 10px; 
+}*/
 
 .row-small{
     width: 100%;
@@ -185,10 +185,9 @@ main > section{
     padding: 10px 0 10px 0;
 }
 
-.icon-white{
+/* .icon-white{
     color: white;
-   
-}
+} */
 
 .icon-blue{
     color: #0061ff;
