@@ -269,12 +269,10 @@ main{
 .clm-left-title{
     width: 50%;
     height:150px;
-    background-color: indianred;
 }
 .clm-right-button{
     width: 50%;
     height:150px;
-    background-color: rgb(205, 197, 92);
 }
 
 .clm-left-title > h2{
@@ -285,14 +283,16 @@ main{
     padding: 50px 100px 20px 100px;
 }
 
+.back-blue{
+    background-color: rgba(180,208,231,255);
+}
+
 
 /* !SIXTH SECTIO FAQ */
 /* ***************faq ****** */
-.faq-container{
-    height: 230px;
-    background-color: indigo;
+/* .faq-container{
 }
-
+ */
 
 /* !FOOTER */
 footer{
