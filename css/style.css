@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    min-width: 1030px;
+}
+
 /* Clearfix + float */
 .clearfix{
     content: "";
@@ -62,15 +66,14 @@ h1,h2,h3,h4,h5{
     padding-bottom:10px ;
 }
 
-section > main{
+main > section{
     /*   background-color: darkred;  */
      /*  da eliminare il margin, mi serve per separare le section */
-    margin-bottom: 20px;
-    padding-top: 20px;
-      
+    margin-bottom: 50px;
+    padding-top: 20px;   
 }
 
-section > footer{
+footer > section{
     margin-bottom: 20px;
     padding-top: 20px;
 }
