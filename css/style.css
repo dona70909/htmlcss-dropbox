@@ -301,6 +301,16 @@ footer > section{
     font-size: 23px;
 }
 
+.row-bottom{
+    margin-bottom: 150px;
+}
+
+.container-title-link > h2{
+    margin-bottom: 30px;
+}
+.container-title-link > a{
+    color:#2275ff;
+}
 /* Fourth section  with 3 columns : 2 with images and the middle one with text */
 .column-image-brands{
     width: 30%;
@@ -324,7 +334,12 @@ footer > section{
 /* !FIFTH SECTION */
 .clm-left-title{
     width: 50%;
-    height:150px;
+    height:300px;
+}
+
+.clm-left-title > h2{
+    color:#61082b;
+    font-size: 50px;
 }
 .clm-right-button{
     width: 50%;
@@ -332,17 +347,16 @@ footer > section{
 }
 
 .clm-left-title > h2{
-    padding: 50px 20px 20px 50px;
+    margin: 50px 20px 50px 60px;
 }
 
 .clm-right-button > .container-btn{
-    padding: 50px 100px 20px 100px;
+    margin: 60px 50px 60px 100px;
 }
 
 .back-blue{
     background-color: rgba(180,208,231,255);
 }
-
 
 /* !SIXTH SECTION FAQ */
 .faq-container{
