@@ -251,15 +251,19 @@ main{
 }
 
 /* section four with 3 columns : 2 with images and the middle one with text */
-.column-image{
-    width:calc(100% / 3);
-    height: 200px;
-    background-color: greenyellow;
+.column-image-brands{
+    width: 30%;
+    background-color: lightpink;
 }
 
-.clm-text-middle{
-    /* ??padding */
-    padding: 10px 10px 20px 10px;
+.column-designit{
+    width: 40%;
+    padding: 10px 10px 20px;
+    background-color: lightskyblue;
+}
+
+.column-designit > img,p{
+    margin-bottom: 20px;
 }
 
 /* !FIFTH SECTION */
