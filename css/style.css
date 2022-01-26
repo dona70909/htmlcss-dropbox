@@ -133,12 +133,8 @@ button a {
     width: 100%;
     
 }
-/* main */
-
-/* secction 1 */
-
-
-/* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
+/*  ***************************! MAIN ****************/
+/* ?section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
 .small-clm{
     width: calc(100% / 3);
@@ -305,7 +301,7 @@ button a {
 /* !FOOTER */
 footer{
     background-color: black;
-    height: 500px;
+    height: 400px;
     padding: 40px 20px 40px 0;
     color: white;
 } 
@@ -326,6 +322,10 @@ footer{
 .title-li-footer{
     font-size: 18px;
     margin-bottom: 25px;
+}
+
+.contaienr-languages{
+    padding-top: 50px;
 }
 
 /* ? id  */
