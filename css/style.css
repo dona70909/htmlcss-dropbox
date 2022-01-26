@@ -285,6 +285,10 @@ button a {
 
 
 /* !SIXTH SECTION FAQ */
+.faq-container{
+    height: 500px;
+    padding-top: 100px;
+}
 .item-faq{
     border-bottom: 1px solid black;
     height: 20px;
@@ -309,7 +313,6 @@ footer{
     width: calc(20% - 10px);
     margin-right:10px;
     margin-bottom: 50px;
-   /*  background-color: rgb(73, 128, 87); */
     padding: 0 10px 0 30px;
 }
 
