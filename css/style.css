@@ -314,11 +314,13 @@ footer > section{
 /* Fourth section  with 3 columns : 2 with images and the middle one with text */
 .column-image-brands{
     width: 30%;
+    height: 350px;
     background-color: lightpink;
 }
 
 .column-designit{
     width: 40%;
+    height:350px;
     padding: 10px 10px 20px;
     background-color: lightskyblue;
 }
@@ -429,5 +431,81 @@ footer{
     margin-left: 20px;
 }
 
+/* svg prova */
+.svg-img-green{
+    width: 50%;
+    height: 175px;
+    background-color: #a2d39b;
+    top:0;
+    left:0;
+    /* ransform: translate(-50% , -50%); */
+}
 
+.svg-img-darkred{
+    width: 50%;
+    height: 175px;
+    top:0;
+    right:0;
+    background-color: #61082b;
+    
+    color: white;
+}
 
+.svg-img-cyano{
+    width: 50%;
+    height: 175px;
+    background-color: #0093ce;
+    bottom:0;
+    left:0;
+    
+}
+
+.svg-img-strongred{
+    width: 50%;
+    height: 175px;
+    bottom:0;
+    right: 0;
+    background-color: #ff1c1c;
+    
+}
+
+.svg-img-weakred{
+    background-color: #d5001f;
+    width: 50%;
+    height: 175px;
+    top:0;
+    left:0;
+}
+
+.svg-img-lightblue{
+    width: 50%;
+    height: 175px;
+    top:0;
+    right:0;
+    background-color: #b4d0e7;
+}
+
+.svg-img-blue{
+    width: 50%;
+    height: 175px;
+    bottom:0;
+    left: 0;
+    background-color:#0d2481 ;
+    
+}
+
+.svg-img-yellow{
+    width: 50%;
+    height: 175px;
+    bottom:0;
+    right: 0;
+    background-color: #ffd830;
+
+}
+
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
