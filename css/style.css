@@ -72,15 +72,11 @@ h1,h2,h3,h4,h5{
 .container-large{
     width: 90%;
     margin: 0 auto;
-   /*  background-color: blueviolet; */
-    /* text-align: center; */
-   /*  padding-top: 30px;*/
 } 
 
 .container{
     width: 85%;
     margin: 0 auto;
-    background-color: deeppink;
 }
 .text-align-left{
     text-align: left;
@@ -286,7 +282,6 @@ section{
 
 
 /* !SIXTH SECTION FAQ */
-/* ***************faq ****** */
 .item-faq{
     border-bottom: 1px solid black;
     height: 20px;
