@@ -33,11 +33,6 @@ header{
     padding: 0px 10px 0px 10px;
 }
 
-section#jumbotron .container-large > h1{
-    font-size: 75px;
-    padding: 50px 0 20px 0;
-}
-
 header > section{
     width: 100%;
     height: 100%;
@@ -56,9 +51,13 @@ header li{
     font-weight: 900;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
+}
+
+button a{
+    text-decoration: none;
 }
 
 /* modificare */
@@ -67,7 +66,7 @@ i{
 }
 
 h1,h2,h3,h4,h5{
-    padding-bottom:10px ;
+  /*   padding-bottom:10px ; */
 }
 
 main > section{
@@ -95,6 +94,7 @@ footer > section{
     width: 85%;
     margin: 0 auto;
 }
+
 .text-align-left{
     text-align: left;
 }
@@ -108,6 +108,17 @@ footer > section{
 }  
 
 /* !jumbotron's columns */
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 620px; 
+}
+
+.jumbotron-title{
+    font-size: 70px;
+    padding: 50px 0 20px 0;
+}
+
+
 .small-clm-jumbo{
     width: 30%;
 }
@@ -121,16 +132,17 @@ footer > section{
     padding: 5px 10px 5px 10px;
     border: none;
 }
-button a {
+.btn-blue a {
     color: white;
 }
 .small-clm-jumbo > p{
     margin-bottom: 20px;
 }
-.container-link{
+.container-link-jumbo{
     margin-bottom: 20px;
     padding-top: 20px;
     font-size: 14px;
+
 }
 
 .big-clm-jumbo > img{
@@ -157,7 +169,7 @@ button a {
     border:1px solid #111111
 }
 
-.piano-business > h1{
+.business-plans > h2{
     padding-top: 100px;
     font-size: 30px;
     margin-bottom: 20px;
@@ -176,13 +188,47 @@ button a {
     margin-bottom: 10px;
 }
 
-.small-clm h5{
+.business-plans h5{
     text-align: center;
     padding: 10px 0 10px 0;
 }
 
 .container-list-plans > ul > li{
     font-size: 12px;
+}
+
+.business-plans h2,h3,h4,h6{
+    margin-bottom: 10px;
+}
+
+.business-plans h6{
+    color:rgba(183,190,196,255)
+}
+
+.business-plans h3{
+    font-weight: bold;
+}
+
+.container-list-plans > ul{
+    margin-bottom: 40px;
+}
+
+.bottom-list-plans{
+    padding-bottom: 100px;
+}
+
+.container-list-plans > button{
+    margin-bottom: 20px;
+}
+
+.container-list-plans p{
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.container-list-plans p>a{
+    color: #0061ff;
+
 }
 
 /* ROW FIRST SECTION */
@@ -340,10 +386,7 @@ footer{
 }
 
 /* ? id  */
-#jumbotron{
-    background-color: #b4d0e7;
-    height: 620px; 
-}
+
 
 #logo{
     padding-right: 30px;
