@@ -203,7 +203,8 @@ footer > section{
 }
 
 .business-plans h6{
-    color:rgba(183,190,196,255)
+    color:rgba(183,190,196,255);
+    margin-bottom: 30px;
 }
 
 .business-plans h3{
