@@ -214,6 +214,10 @@ footer > section{
     margin-bottom: 40px;
 }
 
+.container-list-plans > ul > li{
+    margin-bottom: 20px;
+}
+
 .bottom-list-plans{
     padding-bottom: 100px;
 }
