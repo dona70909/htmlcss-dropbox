@@ -261,7 +261,11 @@ main{
     background-color: lightskyblue;
 }
 
-.column-designit > img,p{
+.column-designit > img{
+    margin-bottom: 20px;
+}
+
+.column-designit > p{
     margin-bottom: 20px;
 }
 
@@ -290,10 +294,15 @@ main{
 
 /* !SIXTH SECTIO FAQ */
 /* ***************faq ****** */
-/* .faq-container{
+.item-faq{
+    border-bottom: 1px solid black;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
 }
- */
 
+.item-faq .fa-chevron-down{
+    margin-left: 300px;
+}
 /* !FOOTER */
 footer{
     background-color: black;
