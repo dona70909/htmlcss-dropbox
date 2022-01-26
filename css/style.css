@@ -361,16 +361,25 @@ footer > section{
 /* !SIXTH SECTION FAQ */
 .faq-container{
     height: 500px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
+
+.faq-container > h1{
+    margin-bottom: 50px;
+}
+
 .item-faq{
     border-bottom: 1px solid black;
     height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
     padding: 10px 20px 10px 20px;
+    width:100% ;
 }
 
+
 .item-faq .fa-chevron-down{
-    margin-left: 300px;
+    
 }
 
 .first-li{
