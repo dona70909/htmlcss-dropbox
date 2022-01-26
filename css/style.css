@@ -132,11 +132,11 @@ main{
    /*  background-color: goldenrod; */
 }
 
-main > section{
-   /*  background-color: darkred; */
-    /* da eliminare il margin, mi serve per separare le section */
+/*main > section{
+    background-color: darkred; 
+    da eliminare il margin, mi serve per separare le section 
     
-}
+}*/
 
 /* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
@@ -204,10 +204,6 @@ main > section{
 /* _________________________________________________________________ */
 /* secction 2 COLUMN ONLY FOR THE SECOND SECTION 50% 50% */
 /* ! SECOND section  2 column  */
-/* .column{
-    width: 50%;
-    background-color: deepskyblue;
-} */
 
 .clm-img{
     width: 60%;
@@ -216,7 +212,6 @@ main > section{
 .clm-text{
     width: 40%;
 }
-
 
 .btn-white{
     background-color: white;
@@ -237,12 +232,23 @@ main > section{
     padding-bottom:20px ;
 } 
 /* ! THIRD section  : 2 row con 3 column each one  */
-/* THIRD SECTION */
-/* .column-short{
-    height: 200px;
+.small-clm-img{
     width: calc(100% / 3);
-    background-color: rgb(34, 173, 178);
-} */
+    margin-bottom: 20px;
+    padding-left:20px ;
+}
+
+.middle-clm-img{
+    width: calc(100% / 3);
+}
+
+.small-clm-img > .small-img{
+    width: 80%;
+}
+
+.small-clm-img > h3{
+    font-size: 23px;
+}
 
 /* section four with 3 columns : 2 with images and the middle one with text */
 .column-image{
