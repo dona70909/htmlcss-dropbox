@@ -67,8 +67,6 @@ h1,h2,h3,h4,h5{
 }
 
 main > section{
-    /*   background-color: darkred;  */
-     /*  da eliminare il margin, mi serve per separare le section */
     margin-bottom: 50px;
     padding-top: 20px;   
 }
