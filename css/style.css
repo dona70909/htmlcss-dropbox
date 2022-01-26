@@ -38,12 +38,12 @@ header > section{
     height: 100%;
     font-size: 15px;
 }
-
-ul{
+/* ?solo per header?? */
+header ul{
     list-style: none;
 }
 
-/* HEADER LI? */
+/* ?HEADER LI? */
 header li{
     display: inline;
     padding-right:20px ;
@@ -51,6 +51,7 @@ header li{
     font-weight: 900;
 }
 
+/* ?solo per header?? */
 header a{
     text-decoration: none;
     color: black;
