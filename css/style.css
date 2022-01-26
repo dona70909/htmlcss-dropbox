@@ -127,16 +127,13 @@ button a {
 /* main */
 
 /* secction 1 */
-main{
-    height:2000px;
-   /*  background-color: goldenrod; */
-}
-
-/*main > section{
+section{
     background-color: darkred; 
-    da eliminare il margin, mi serve per separare le section 
+   /*  da eliminare il margin, mi serve per separare le section */
+   margin-bottom: 20px;
+   padding-top: 20px;
     
-}*/
+}
 
 /* section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
 /* ! FIRST section  3 column + 1 row  */
@@ -180,10 +177,6 @@ main{
     text-align: center;
     padding: 10px 0 10px 0;
 }
-
-/* .icon-white{
-    color: white;
-} */
 
 /* ROW FIRST SECTION */
 .row-small h5{
@@ -249,7 +242,7 @@ main{
     font-size: 23px;
 }
 
-/* section four with 3 columns : 2 with images and the middle one with text */
+/* Fourth section  with 3 columns : 2 with images and the middle one with text */
 .column-image-brands{
     width: 30%;
     background-color: lightpink;
@@ -312,11 +305,7 @@ footer{
     background-color: black;
     height: 300px;
     padding-top: 40px ;
-}
-
-/* footer > section{
-    padding-top: 50px;
-} */
+} 
 .column-footer{
     width: calc(20% - 10px);
     margin-right:10px ;
