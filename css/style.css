@@ -292,7 +292,7 @@ main{
 }
 
 
-/* !SIXTH SECTIO FAQ */
+/* !SIXTH SECTION FAQ */
 /* ***************faq ****** */
 .item-faq{
     border-bottom: 1px solid black;
@@ -302,6 +302,10 @@ main{
 
 .item-faq .fa-chevron-down{
     margin-left: 300px;
+}
+
+.first-li{
+    border-top: 1px solid black;
 }
 /* !FOOTER */
 footer{
