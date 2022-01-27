@@ -374,6 +374,7 @@ header button{
     background-color: #a2d39b;
     top:0;
     left:0;
+   
 }
 
 .svg-img-darkred{
@@ -382,7 +383,6 @@ header button{
     top:0;
     right:0;
     background-color: #61082b;
-    color: white;
 }
 
 .svg-img-cyano{
