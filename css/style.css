@@ -219,7 +219,6 @@ footer > section{
 
 .business-plans  h3{
     font-weight:900;
-
 }
 
 .container-list-plans > ul{
@@ -263,6 +262,9 @@ footer > section{
 }
 .hr-short{
     width: 15%;
+    height: 0px;
+    border: none;
+    border-top: 1px solid lightgrey;
 }
 /* _________________________________________________________________ */
 /* secction 2 COLUMN ONLY FOR THE SECOND SECTION 50% 50% */
