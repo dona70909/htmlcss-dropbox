@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- GOOGLE FONT -->
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <!-- bold opens sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -64,12 +68,18 @@
         <section class="business-plans">
             <h2 class=" container">Trova il piano Dropbox Business che fa per te</h2>
             <div class="container radio-container">
-                <input type="radio" id="mensile">
-                <label for="mensile">Fatturazione mensile</label>
+                <span class="radio radio-left">
+                    <input type="radio" id="mensile">
+                    <label for="mensile">Fatturazione mensile</label>
                 
-                <input type="radio" id="annuale" >
-                <label for="annuale">Fatturazione annuale</label>
+                </span>
+
+                <span class="radio radio-right">
+                    <input type="radio" id="annuale" >
+                    <label for="annuale">Fatturazione annuale</label>
+                </span>
             </div>
+
             <div class="clearfix container">
                 <!-- first column -->
                 <div class="float-left small-clm">
