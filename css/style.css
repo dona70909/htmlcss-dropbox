@@ -278,6 +278,11 @@ input[type='radio'] {
 
 }
 
+.business-plans hr{
+    border:none;
+    border-top:1px solid lightgrey;
+}
+
 /* ROW FIRST SECTION */
 .row-small h5{
     text-align: center;
