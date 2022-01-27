@@ -25,6 +25,13 @@ html{
     float: right;
 }
 
+/* .relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+ */
 /*?? __________________________________Buttons______________*/
 .btn-blue{
     background-color: #0061ff;
@@ -367,27 +374,52 @@ header button{
     padding-top: 100px;
 }
 
-/* ****************************************************** SVG TRY ***********************************************/
-.svg-img-green{
-    width: 50%;
-    height: 175px;
-    background-color: #a2d39b;
-    top:0;
-    left:0;
-   
+/* ****************************************************** SVG TRY ***********************************************/ù
+
+.relative{
+    position: relative;
 }
 
+.absolute{
+    position:absolute;
+}
+
+.svg-middle{
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.svg-img-green{
+ /*    position: relative; */
+    width: 50%;
+    height: 50%;
+    background-color: #a2d39b;
+    top: 0;
+    left: 0;
+}
+
+/* .svg-img-green > object{
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ */
 .svg-img-darkred{
     width: 50%;
-    height: 175px;
+    height: 50%;
     top:0;
     right:0;
     background-color: #61082b;
 }
 
+
 .svg-img-cyano{
     width: 50%;
-    height: 175px;
+    height: 50%;
     background-color: #0093ce;
     bottom:0;
     left:0;
@@ -413,7 +445,7 @@ header button{
 
 .svg-img-lightblue{
     width: 50%;
-    height: 175px;
+    height: 50%;
     top:0;
     right:0;
     background-color: #b4d0e7;
@@ -421,7 +453,7 @@ header button{
 
 .svg-img-blue{
     width: 50%;
-    height: 175px;
+    height: 50%;
     bottom:0;
     left: 0;
     background-color:#0d2481 ;
@@ -430,7 +462,7 @@ header button{
 
 .svg-img-yellow{
     width: 50%;
-    height: 175px;
+    height: 50%;
     bottom:0;
     right: 0;
     background-color: #ffd830;
