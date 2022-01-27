@@ -133,6 +133,12 @@ header button{
 
 /* !jumbotron's columns */
 
+.container-link-jumbo > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
 .jumbotron{
     background-color: #b4d0e7;
     height: 620px; 
