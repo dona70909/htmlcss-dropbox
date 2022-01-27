@@ -231,14 +231,16 @@ input[type='radio'] {
 .business-plans h5{
     text-align: center;
     padding: 10px 0 10px 0;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .container-list-plans > ul > li{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .business-plans h3,h4,h6{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .business-plans h6{
@@ -279,6 +281,7 @@ input[type='radio'] {
 /* ROW FIRST SECTION */
 .row-small h5{
     text-align: center;
+    font-size: 15px;
     padding: 10px 0 10px 0;
 }
 
@@ -335,6 +338,11 @@ input[type='radio'] {
     font-size: 15px;
 }
 /* ! THIRD section  : 2 row con 3 column each one  */
+.title-third-section{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
 .small-clm-img{
     width: calc(100% / 3);
     margin-bottom: 20px;
@@ -350,15 +358,18 @@ input[type='radio'] {
 }
 
 .small-clm-img > h3{
-    font-size: 23px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .row-bottom{
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 
 .container-title-link > h2{
+    width: 630px;
     margin-bottom: 30px;
+    font-size: 50px;
 }
 .container-title-link > a{
     color:#2275ff;
@@ -533,8 +544,15 @@ input[type='radio'] {
     padding-top: 60px;
 }
 
+.faq-container li{
+    font-weight: 900;
+    font-size: 18px;
+}
+
 .faq-container > h1{
     margin-bottom: 50px;
+    font-size: 40px;
+    padding-left: 20px;
 }
 
 .item-faq{
@@ -581,23 +599,20 @@ footer{
 
 .contaiener-languages{
     padding-top: 10px;
+    color:lightgray;
 }
 
 footer select{
     background: none;
-    color: white;
+    color: lightgrey;
     border: none;
 }
 footer option{
     color: black;
 }
 
-footer i{
-    margin: 0;
-}
+
 /* ? id  */
-
-
 #logo{
     padding-right: 30px;
     vertical-align: middle;
