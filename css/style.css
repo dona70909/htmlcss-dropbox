@@ -392,22 +392,18 @@ header button{
 }
 
 .svg-img-green{
- /*    position: relative; */
     width: 50%;
     height: 50%;
     background-color: #a2d39b;
     top: 0;
     left: 0;
+    border:10px solid #d0e9cd ;
 }
 
-/* .svg-img-green > object{
-    position: absolute;
-    width: 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.svg-img-green > object{
+    filter: invert(1);
 }
- */
+
 .svg-img-darkred{
     width: 50%;
     height: 50%;
